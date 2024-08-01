@@ -1,0 +1,6 @@
+greet(Name) ->
+    io:format("Hello, ~s! Welcome to GitHub.~n", [Name]).
+
+main() ->
+    Name = "linrenjie",
+    greet(Name).
